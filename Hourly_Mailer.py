@@ -3,7 +3,9 @@ from datetime import datetime
 from mail_sender import send_summary_email
 
 # Jenkins Workspace Log File
-LOG_FILE = r"C:\ProgramData\Jenkins\.jenkins\workspace\Internet_Speed_Tester_boAtRnD_BangaloreOffice\internet_alerts.log"
+#LOG_FILE = r"C:\ProgramData\Jenkins\.jenkins\workspace\Internet_Speed_Tester_boAtRnD_BangaloreOffice\internet_alerts.log"
+
+LOG_FILE = r"C:\InternetMonitor\internet_alerts.log"
 
 
 def read_log_file():
