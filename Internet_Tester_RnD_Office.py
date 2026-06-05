@@ -54,7 +54,7 @@ def log_alert(message):
     ) as f:
 
         f.write("\n")
-        f.write("=" * 25)
+        f.write("=" * 30)
         f.write("\n")
         f.write(f"[{timestamp}]\n")
         f.write(message)
