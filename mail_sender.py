@@ -14,8 +14,8 @@ from datetime import datetime
 # EMAIL CONFIGURATION
 # =====================================================
 
-EMAIL_SENDER = "boatqatest@gmail.com"
-EMAIL_PASSWORD = "cdcjeeydsnaeslzo"
+EMAIL_SENDER = "boatlabsrnd@gmail.com"
+EMAIL_PASSWORD = "avhuyryqiklikgiq"
 
 # EMAIL_RECEIVER = [
 #     "jayakumar.v@imaginemarketingindia.com",
@@ -154,8 +154,8 @@ Internet Monitor Bot
 def send_summary_email(log_content):
 
     subject = (
-        "📊 Internet Monitoring Summary "
-        "- Last Hour"
+        "🚨 boAt R&D Bangalore "
+        "- Hourly Internet Health Report 🛜"
     )
 
     report_time = datetime.now().strftime(
