@@ -152,8 +152,8 @@ Internet Monitor Bot
 def send_summary_email(log_content):
 
     subject = (
-        "🚨 boAt R&D Bangalore "
-        "- Hourly Internet Health Report 🛜"
+        "🚨 Internet Health Summary Report "
+        "- boAt R&D Bangalore Office 🛜"
     )
 
     report_time = datetime.now().strftime(
