@@ -43,14 +43,10 @@ if __name__ == "__main__":
     try:
 
         summary_header = f"""
-Internet Monitoring Summary Report
-
 Generated Time : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-
-========================================================
 """
-
-        email_content = summary_header + "\n" + log_content
+        
+        email_content = summary_header + log_content
 
         send_summary_email(email_content)
 
