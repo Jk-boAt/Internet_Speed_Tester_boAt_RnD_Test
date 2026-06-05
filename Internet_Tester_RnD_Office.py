@@ -10,8 +10,8 @@ try:
 except:
     pass
 
-MIN_DOWNLOAD = 100
-MIN_UPLOAD = 100
+MIN_DOWNLOAD = 30
+MIN_UPLOAD = 30
 MAX_PING = 80
 
 TARGET_WIFI = "IMAGINE"
@@ -54,7 +54,7 @@ def log_alert(message):
     ) as f:
 
         f.write("\n")
-        f.write("=" * 35)
+        f.write("=" * 25)
         f.write("\n")
         f.write(f"[{timestamp}]\n")
         f.write(message)
