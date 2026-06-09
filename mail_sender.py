@@ -17,15 +17,15 @@ from datetime import datetime
 EMAIL_SENDER = "boatlabsrnd@gmail.com"
 EMAIL_PASSWORD = "avhuyryqiklikgiq"
 
-# EMAIL_RECEIVER = [
-#     "jayakumar.v@imaginemarketingindia.com",
-#     "naveen.m@imaginemarketingindia.com",
-#     "rasiq.khan@imaginemarketingindia.com"
-# ]
-
 EMAIL_RECEIVER = [
-    "jayakumar.v@imaginemarketingindia.com"
+    "jayakumar.v@imaginemarketingindia.com",
+    "naveen.m@imaginemarketingindia.com",
+    "rasiq.khan@imaginemarketingindia.com"
 ]
+
+# EMAIL_RECEIVER = [
+#     "jayakumar.v@imaginemarketingindia.com"
+# ]
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
